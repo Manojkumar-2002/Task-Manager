@@ -1,0 +1,14 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore the 'dist' folder executables, except for the code
+dist/*.exe
+
+# Ignore the 'build' folder and spec file
+build/
+*.spec
+
+# Ignore local JSON files used for task management
+manoj_tasks.json
+users.json

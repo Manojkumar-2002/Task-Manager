@@ -10,7 +10,7 @@ class Task:
 
     def __repr__(self):
         status = "✓" if self.completed else "✗"
-        return f"Task(id={self.id}, title={self.title}, description={self.description}, completed={status})"
+        return f"id={self.id}, title={self.title}, description={self.description}, completed={status}"
 
 class TaskManager:
     def __init__(self, user):
